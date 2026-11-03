@@ -196,7 +196,7 @@ Pickups grouped by pincode with dispatch thresholds, routes planned with Google 
 
 ## ◆ Education & Credentials
 
-| | |
+| Qualification | Where · When |
 | --- | --- |
 | 🎓 **Master of Data Science** | University of Adelaide · 2023 – 2025 |
 | 🧭 **Professional Year, Information Technology** | Performance Education · 2025 – 2026 |
@@ -219,9 +219,6 @@ Pickups grouped by pincode with dispatch thresholds, routes planned with Google 
 ## ◆ GitHub
 
 <div align="center">
-  <img height="165" src="https://github-readme-stats.vercel.app/api?username=jithendra-varma&show_icons=true&hide_border=true&bg_color=0b1020&title_color=a78bfa&icon_color=22d3ee&text_color=e2e8f0&ring_color=a78bfa" alt="GitHub stats"/>
-  <img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=jithendra-varma&layout=compact&hide_border=true&bg_color=0b1020&title_color=a78bfa&text_color=e2e8f0" alt="Top languages"/>
-  <br/>
   <img src="https://streak-stats.demolab.com/?user=jithendra-varma&hide_border=true&background=0b1020&ring=a78bfa&fire=f43f5e&currStreakLabel=a78bfa&sideLabels=22d3ee&currStreakNum=e2e8f0&sideNums=e2e8f0&dates=64748b&stroke=1e293b" alt="Contribution streak"/>
 </div>
 
