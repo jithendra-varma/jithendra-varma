@@ -1,0 +1,110 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 340" width="1200" height="340" role="img" aria-label="Jithendra Varma Chamarthi, Digital Solutions and Systems Specialist, AI automation, data and dashboards">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#05070d"/>
+      <stop offset="1" stop-color="#0b1020"/>
+    </linearGradient>
+    <radialGradient id="glowA" cx="0.5" cy="0.5" r="0.5">
+      <stop offset="0" stop-color="#7c3aed" stop-opacity="0.55"/>
+      <stop offset="1" stop-color="#7c3aed" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="glowB" cx="0.5" cy="0.5" r="0.5">
+      <stop offset="0" stop-color="#06b6d4" stop-opacity="0.45"/>
+      <stop offset="1" stop-color="#06b6d4" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="glowC" cx="0.5" cy="0.5" r="0.5">
+      <stop offset="0" stop-color="#f43f5e" stop-opacity="0.35"/>
+      <stop offset="1" stop-color="#f43f5e" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="name" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#ffffff"/>
+      <stop offset="0.55" stop-color="#c4b5fd"/>
+      <stop offset="1" stop-color="#67e8f9"/>
+    </linearGradient>
+    <linearGradient id="rule" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#a78bfa"/>
+      <stop offset="1" stop-color="#22d3ee" stop-opacity="0"/>
+    </linearGradient>
+    <pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse">
+      <path d="M40 0H0V40" fill="none" stroke="#ffffff" stroke-opacity="0.04" stroke-width="1"/>
+    </pattern>
+    <clipPath id="frame"><rect width="1200" height="340" rx="22"/></clipPath>
+    <style>
+      .mono { font-family: 'JetBrains Mono','SFMono-Regular',Consolas,'Liberation Mono',Menlo,monospace; }
+      .sans { font-family: 'Inter','Segoe UI',-apple-system,Helvetica,Arial,sans-serif; }
+      .drift1 { animation: d1 14s ease-in-out infinite alternate; }
+      .drift2 { animation: d2 18s ease-in-out infinite alternate; }
+      .drift3 { animation: d3 22s ease-in-out infinite alternate; }
+      @keyframes d1 { to { transform: translate(120px, 40px); } }
+      @keyframes d2 { to { transform: translate(-140px, -30px); } }
+      @keyframes d3 { to { transform: translate(60px, -50px); } }
+      .pulse { animation: p 3.2s ease-in-out infinite; transform-box: fill-box; transform-origin: center; }
+      .pulse.b { animation-delay: 0.8s; } .pulse.c { animation-delay: 1.6s; } .pulse.d { animation-delay: 2.4s; }
+      @keyframes p { 0%,100% { opacity: 0.35; transform: scale(1); } 50% { opacity: 1; transform: scale(1.6); } }
+      .flow { stroke-dasharray: 6 10; animation: f 2.4s linear infinite; }
+      @keyframes f { to { stroke-dashoffset: -32; } }
+      .caret { animation: c 1.1s steps(1) infinite; }
+      @keyframes c { 50% { opacity: 0; } }
+      .rise { animation: r 0.9s ease-out both; }
+      .rise.t2 { animation-delay: 0.15s; } .rise.t3 { animation-delay: 0.3s; } .rise.t4 { animation-delay: 0.45s; }
+      @keyframes r { from { opacity: 0; transform: translateY(10px); } to { opacity: 1; transform: none; } }
+    </style>
+  </defs>
+
+  <g clip-path="url(#frame)">
+    <rect width="1200" height="340" fill="url(#bg)"/>
+    <ellipse class="drift1" cx="220" cy="80" rx="320" ry="220" fill="url(#glowA)"/>
+    <ellipse class="drift2" cx="1000" cy="260" rx="340" ry="230" fill="url(#glowB)"/>
+    <ellipse class="drift3" cx="760" cy="40" rx="220" ry="160" fill="url(#glowC)"/>
+    <rect width="1200" height="340" fill="url(#grid)"/>
+
+    <!-- neural graph -->
+    <g stroke="#a5b4fc" stroke-opacity="0.35" stroke-width="1.2" fill="none">
+      <path class="flow" d="M900 70 L970 140 L1050 95 L1130 160"/>
+      <path class="flow" d="M900 70 L950 240 L1050 95"/>
+      <path class="flow" d="M950 240 L1060 270 L1130 160"/>
+      <path class="flow" d="M970 140 L1060 270"/>
+      <path class="flow" d="M1050 95 L1150 60"/>
+    </g>
+    <g fill="#e0e7ff">
+      <circle class="pulse" cx="900" cy="70" r="4"/>
+      <circle class="pulse b" cx="970" cy="140" r="5"/>
+      <circle class="pulse c" cx="1050" cy="95" r="4"/>
+      <circle class="pulse d" cx="1130" cy="160" r="5"/>
+      <circle class="pulse b" cx="950" cy="240" r="4"/>
+      <circle class="pulse c" cx="1060" cy="270" r="4"/>
+      <circle class="pulse" cx="1150" cy="60" r="3"/>
+    </g>
+
+    <!-- terminal tag -->
+    <g class="mono rise">
+      <rect x="64" y="54" width="290" height="30" rx="15" fill="#ffffff" fill-opacity="0.06" stroke="#ffffff" stroke-opacity="0.14"/>
+      <circle cx="84" cy="69" r="4" fill="#22c55e"/>
+      <text x="98" y="74" font-size="14" fill="#cbd5e1">~/adelaide · building with AI</text>
+    </g>
+
+    <!-- name -->
+    <text class="sans rise t2" x="62" y="152" font-size="54" font-weight="800" letter-spacing="-1.5" fill="url(#name)">Jithendra Varma Chamarthi</text>
+
+    <!-- role line -->
+    <g class="mono rise t3">
+      <text x="64" y="196" font-size="17" fill="#e2e8f0"><tspan fill="#a78bfa">&gt;</tspan> Digital Solutions &amp; Systems Specialist <tspan fill="#64748b">@</tspan> Treasury Wine Estates<tspan class="caret" fill="#67e8f9"> ▍</tspan></text>
+    </g>
+    <rect class="rise t3" x="64" y="214" width="420" height="2" fill="url(#rule)"/>
+
+    <!-- chips -->
+    <g class="sans rise t4" font-size="14" font-weight="600">
+      <rect x="64" y="240" width="150" height="34" rx="17" fill="#7c3aed" fill-opacity="0.18" stroke="#a78bfa" stroke-opacity="0.6"/>
+      <text x="139" y="262" text-anchor="middle" fill="#ddd6fe">AI Automation</text>
+      <rect x="226" y="240" width="176" height="34" rx="17" fill="#06b6d4" fill-opacity="0.16" stroke="#22d3ee" stroke-opacity="0.6"/>
+      <text x="314" y="262" text-anchor="middle" fill="#cffafe">Data &amp; Dashboards</text>
+      <rect x="414" y="240" width="118" height="34" rx="17" fill="#f43f5e" fill-opacity="0.14" stroke="#fb7185" stroke-opacity="0.6"/>
+      <text x="473" y="262" text-anchor="middle" fill="#ffe4e6">NLP · ML</text>
+      <rect x="544" y="240" width="212" height="34" rx="17" fill="#ffffff" fill-opacity="0.05" stroke="#ffffff" stroke-opacity="0.2"/>
+      <text x="650" y="262" text-anchor="middle" fill="#e2e8f0">Founder · Adel AI Studio</text>
+    </g>
+
+    <text class="mono" x="64" y="312" font-size="12.5" fill="#64748b">Master of Data Science · University of Adelaide   //   jithendravarma.com</text>
+    <rect x="0.5" y="0.5" width="1199" height="339" rx="22" fill="none" stroke="#ffffff" stroke-opacity="0.08"/>
+  </g>
+</svg>
